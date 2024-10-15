@@ -1,4 +1,4 @@
-apiVersion: apps/latest
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: momo-deployment
@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: momo
-        image: malingmania/momo
+        image: malingmania/momo:latest
         ports:
         - containerPort: 80

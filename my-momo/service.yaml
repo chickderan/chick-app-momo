@@ -1,4 +1,4 @@
-apiVersion: latest
+apiVersion: v1
 kind: Service
 metadata:
   name: momo-service
@@ -9,4 +9,3 @@ spec:
   ports:
   - port: 80
     targetPort: 80
-    nodePort: 
